@@ -1457,6 +1457,7 @@ textarea.input {
 .contacts-items__item {
   line-height: 1.3;
   position: relative;
+  padding-left: 2.1875rem;
 }
 
 .contacts-items__item::before {
@@ -2283,12 +2284,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   bottom: 0;
   right: 0;
   left: 0;
-}
-
-@media (min-width: 29.99875em) {
-  .contacts-items__item {
-    padding-left: 2.1875rem;
-  }
 }
 
 @media (min-width: 47.99875em) {
